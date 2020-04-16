@@ -100,6 +100,9 @@
   &, input{
     flex: 1;
   }
+  input{
+    width: initial;
+  }
   &.active{
     .info-text{
       visibility: visible;
@@ -127,8 +130,8 @@
     visibility: hidden;
     opacity: 0;
     min-height: 50px;
-    .transition();
     z-index: 2;
+    .transition();
 
     &:after{
       content: '';
