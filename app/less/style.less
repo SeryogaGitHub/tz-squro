@@ -117,15 +117,20 @@
   .voluptatem-points .container{
       display: block;
 
-      & > *{
+    &.sliders{
+      max-width: 95%;
+      margin: 0 auto;
+
+      .wrap-slider-range{
+        margin-bottom: 25px;
+      }
+    }
+    & > *{
           &:last-child{
               text-align: initial;
               margin-top: 25px;
             }
         }
-    }
-    .wrap-slider-range{
-      max-width: 97%;
     }
   }
 @media screen and (max-width: 540px){
