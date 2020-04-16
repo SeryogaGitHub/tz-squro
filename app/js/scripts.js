@@ -75,13 +75,13 @@ $(document).ready(function() {
     }
   });
 
-  // $inputInfo.on("mouseout", '.info-btn', function () {
-  //   let $this = $(this);
-  //
-  //   if($this.parents('.input-info').hasClass('active')){
-  //     $this.parents('.input-info').removeClass('active');
-  //   }
-  // });
+  $inputInfo.on("mouseout", '.info-btn', function () {
+    let $this = $(this);
+
+    if($this.parents('.input-info').hasClass('active')){
+      $this.parents('.input-info').removeClass('active');
+    }
+  });
 
   $( ".selectmenu" ).selectmenu();
 
